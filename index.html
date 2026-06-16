@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zaara's Nursery — Potted Plants for Sale</title>
+<meta name="description" content="A handful of potted plants, lovingly repotted and cared for by 7-year-old Zaara. Reserve yours via WhatsApp.">
+
+<!-- Open Graph tags so shared links (WhatsApp, etc.) preview nicely -->
+<meta property="og:title" content="Zaara's Nursery — Potted Plants for Sale">
+<meta property="og:description" content="A handful of potted plants, lovingly repotted and cared for by 7-year-old Zaara. Reserve yours via WhatsApp.">
+<meta property="og:image" content="images/Banner.jpg">
+<meta property="og:type" content="website">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="hero">
+  <img class="hero-banner" src="images/Banner.jpg" alt="Zaara's potted plant collection">
+  <h1>🌱 Zaara's Nursery</h1>
+  <p class="story">
+    These plants were repotted into bigger homes by Zaara, age 7, with her own two hands.
+    She watered them, watched them grow, and is now ready to send them off to new families.
+    Every pot you take home helped a little gardener learn to love plants.
+  </p>
+</header>
+
+<section class="how-to-buy" id="how-to-buy">
+  <h2>How to buy</h2>
+  <ol>
+    <li>Tap a plant below to see its price and number.</li>
+    <li>Tap <strong>Reserve via WhatsApp</strong> — it opens a chat prefilled with the plant number.</li>
+    <li>Send <strong>UPI payment</strong> to: <code id="upi-id">your-upi-id@bank</code></li>
+    <li>Send a screenshot of the payment in the same WhatsApp chat.</li>
+    <li>We'll confirm your reservation and arrange a pickup time. <em>Pickup only — no shipping.</em></li>
+  </ol>
+</section>
+
+<section class="inventory" id="inventory">
+  <h2>Available plants</h2>
+  <div class="grid" id="plant-grid">
+    <!-- plant tiles rendered here by js/app.js -->
+  </div>
+</section>
+
+<div class="modal-overlay" id="modal-overlay">
+  <div class="modal" id="modal">
+    <button class="modal-close" id="modal-close" aria-label="Close">&times;</button>
+    <img id="modal-photo" src="" alt="">
+    <h3 id="modal-name"></h3>
+    <p id="modal-number"></p>
+    <p id="modal-price"></p>
+    <a id="modal-reserve" class="reserve-btn" target="_blank" rel="noopener">Reserve via WhatsApp</a>
+  </div>
+</div>
+
+<footer>
+  <p>Made with 💚 by Zaara, age 7.</p>
+</footer>
+
+<script src="js/app.js"></script>
+</body>
+</html>

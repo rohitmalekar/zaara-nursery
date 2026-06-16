@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300">
+  <rect width="300" height="300" fill="#eef3ec"/>
+  <text x="150" y="140" font-size="64" text-anchor="middle" dominant-baseline="middle">🌱</text>
+  <text x="150" y="200" font-size="14" fill="#888" text-anchor="middle" font-family="sans-serif">photo coming soon</text>
+</svg>

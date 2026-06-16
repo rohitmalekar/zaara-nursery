@@ -1,0 +1,366 @@
+[
+  {
+    "number": "001",
+    "name": "Haworthia",
+    "price": 16,
+    "status": "available",
+    "photo": "images/001.jpg"
+  },
+  {
+    "number": "002",
+    "name": "Mixed Succulent",
+    "price": 10,
+    "status": "available",
+    "photo": "images/002.jpg"
+  },
+  {
+    "number": "003",
+    "name": "Aloe Vera",
+    "price": 26,
+    "status": "available",
+    "photo": "images/003.jpg"
+  },
+  {
+    "number": "004",
+    "name": "Aloe Vera",
+    "price": 25,
+    "status": "available",
+    "photo": "images/004.jpg"
+  },
+  {
+    "number": "005",
+    "name": "Aloe Vera",
+    "price": 25,
+    "status": "available",
+    "photo": "images/005.jpg"
+  },
+  {
+    "number": "006",
+    "name": "Aloe Vera",
+    "price": 17,
+    "status": "available",
+    "photo": "images/006.jpg"
+  },
+  {
+    "number": "007",
+    "name": "Aloe Vera",
+    "price": 16,
+    "status": "available",
+    "photo": "images/007.jpg"
+  },
+  {
+    "number": "008",
+    "name": "Aloe Vera",
+    "price": 16,
+    "status": "available",
+    "photo": "images/008.jpg"
+  },
+  {
+    "number": "009",
+    "name": "Mystery Seedling",
+    "price": 14,
+    "status": "available",
+    "photo": "images/009.jpg"
+  },
+  {
+    "number": "010",
+    "name": "Jade Plant",
+    "price": 28,
+    "status": "available",
+    "photo": "images/010.jpg"
+  },
+  {
+    "number": "011",
+    "name": "Echeveria",
+    "price": 15,
+    "status": "available",
+    "photo": "images/011.jpg"
+  },
+  {
+    "number": "012",
+    "name": "Succulent Cutting",
+    "price": 10,
+    "status": "available",
+    "photo": "images/012.jpg"
+  },
+  {
+    "number": "013",
+    "name": "Echeveria",
+    "price": 16,
+    "status": "available",
+    "photo": "images/013.jpg"
+  },
+  {
+    "number": "014",
+    "name": "Echeveria",
+    "price": 18,
+    "status": "available",
+    "photo": "images/014.jpg"
+  },
+  {
+    "number": "015",
+    "name": "Succulent Cutting",
+    "price": 11,
+    "status": "available",
+    "photo": "images/015.jpg"
+  },
+  {
+    "number": "016",
+    "name": "String of Pearls",
+    "price": 30,
+    "status": "available",
+    "photo": "images/016.jpg"
+  },
+  {
+    "number": "017",
+    "name": "Mother of Thousands",
+    "price": 15,
+    "status": "available",
+    "photo": "images/017.jpg"
+  },
+  {
+    "number": "018",
+    "name": "Haworthia Limifolia",
+    "price": 30,
+    "status": "available",
+    "photo": "images/018.jpg"
+  },
+  {
+    "number": "019",
+    "name": "Mother of Thousands",
+    "price": 18,
+    "status": "available",
+    "photo": "images/019.jpg"
+  },
+  {
+    "number": "020",
+    "name": "Succulent Cutting",
+    "price": 15,
+    "status": "available",
+    "photo": "images/020.jpg"
+  },
+  {
+    "number": "021",
+    "name": "Young Succulents",
+    "price": 21,
+    "status": "available",
+    "photo": "images/021.jpg"
+  },
+  {
+    "number": "022",
+    "name": "Sedum Cutting",
+    "price": 11,
+    "status": "available",
+    "photo": "images/022.jpg"
+  },
+  {
+    "number": "023",
+    "name": "Echeveria",
+    "price": 22,
+    "status": "available",
+    "photo": "images/023.jpg"
+  },
+  {
+    "number": "024",
+    "name": "Succulent Cutting",
+    "price": 14,
+    "status": "available",
+    "photo": "images/024.jpg"
+  },
+  {
+    "number": "025",
+    "name": "Haworthia Black Gem",
+    "price": 26,
+    "status": "available",
+    "photo": "images/025.jpg"
+  },
+  {
+    "number": "026",
+    "name": "Moonstones",
+    "price": 15,
+    "status": "available",
+    "photo": "images/026.jpg"
+  },
+  {
+    "number": "027",
+    "name": "Anacampseros Filamentosa",
+    "price": 17,
+    "status": "available",
+    "photo": "images/027.jpg"
+  },
+  {
+    "number": "028",
+    "name": "Prince of Orange",
+    "price": 21,
+    "status": "available",
+    "photo": "images/028.jpg"
+  },
+  {
+    "number": "029",
+    "name": "Burro's Tail",
+    "price": 27,
+    "status": "available",
+    "photo": "images/029.jpg"
+  },
+  {
+    "number": "030",
+    "name": "Echeveria",
+    "price": 19,
+    "status": "available",
+    "photo": "images/030.jpg"
+  },
+  {
+    "number": "031",
+    "name": "Haworthia Limifolia",
+    "price": 24,
+    "status": "available",
+    "photo": "images/031.jpg"
+  },
+  {
+    "number": "032",
+    "name": "String of Buttons",
+    "price": 18,
+    "status": "available",
+    "photo": "images/032.jpg"
+  },
+  {
+    "number": "033",
+    "name": "Ice Plant",
+    "price": 20,
+    "status": "available",
+    "photo": "images/033.jpg"
+  },
+  {
+    "number": "034",
+    "name": "Succulent Cutting",
+    "price": 10,
+    "status": "available",
+    "photo": "images/034.jpg"
+  },
+  {
+    "number": "035",
+    "name": "Gasteria",
+    "price": 23,
+    "status": "available",
+    "photo": "images/035.jpg"
+  },
+  {
+    "number": "036",
+    "name": "Paddle Plant",
+    "price": 28,
+    "status": "available",
+    "photo": "images/036.jpg"
+  },
+  {
+    "number": "037",
+    "name": "Succulent Cutting",
+    "price": 10,
+    "status": "available",
+    "photo": "images/037.jpg"
+  },
+  {
+    "number": "038",
+    "name": "Succulent Mix",
+    "price": 20,
+    "status": "available",
+    "photo": "images/038.jpg"
+  },
+  {
+    "number": "039",
+    "name": "Echeveria Blue Elf",
+    "price": 27,
+    "status": "available",
+    "photo": "images/039.jpg"
+  },
+  {
+    "number": "040",
+    "name": "Succulent Cutting",
+    "price": 14,
+    "status": "available",
+    "photo": "images/040.jpg"
+  },
+  {
+    "number": "041",
+    "name": "Panda Plant",
+    "price": 26,
+    "status": "available",
+    "photo": "images/041.jpg"
+  },
+  {
+    "number": "042",
+    "name": "Succulent Seedling",
+    "price": 10,
+    "status": "available",
+    "photo": "images/042.jpg"
+  },
+  {
+    "number": "043",
+    "name": "Blue Chalk Sticks",
+    "price": 22,
+    "status": "available",
+    "photo": "images/043.jpg"
+  },
+  {
+    "number": "044",
+    "name": "Haworthia",
+    "price": 16,
+    "status": "available",
+    "photo": "images/044.jpg"
+  },
+  {
+    "number": "045",
+    "name": "Graptoveria",
+    "price": 21,
+    "status": "available",
+    "photo": "images/045.jpg"
+  },
+  {
+    "number": "046",
+    "name": "Haworthia",
+    "price": 16,
+    "status": "available",
+    "photo": "images/046.jpg"
+  },
+  {
+    "number": "047",
+    "name": "Mother of Thousands",
+    "price": 19,
+    "status": "available",
+    "photo": "images/047.jpg"
+  },
+  {
+    "number": "048",
+    "name": "Burro's Tail",
+    "price": 27,
+    "status": "available",
+    "photo": "images/048.jpg"
+  },
+  {
+    "number": "049",
+    "name": "Sedum Cutting",
+    "price": 14,
+    "status": "available",
+    "photo": "images/049.jpg"
+  },
+  {
+    "number": "050",
+    "name": "Crassula Cutting",
+    "price": 11,
+    "status": "available",
+    "photo": "images/050.jpg"
+  },
+  {
+    "number": "051",
+    "name": "Succulent Mix",
+    "price": 16,
+    "status": "available",
+    "photo": "images/051.jpg"
+  },
+  {
+    "number": "052",
+    "name": "Blue Chalk Sticks",
+    "price": 15,
+    "status": "available",
+    "photo": "images/052.jpg"
+  }
+]
