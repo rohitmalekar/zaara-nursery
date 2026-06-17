@@ -2,7 +2,7 @@
 
 One-time static site for selling potted plants. No backend — you edit a JSON file and push to update things.
 
-Real photos are in place (`images/001.jpg`–`052.jpg`, named by plant number; `Banner.jpg` is the overview shot used as the hero banner and link-preview image). Plant names in `data/plants.json` were identified from the photos and plant tags — double-check the few generic ones (`Succulent Cutting`, `Succulent Mix`, etc.) where the handwritten tag was missing or illegible, and prices (currently random within ₹10–₹30) before going live.
+Real photos are in place (`images/001.jpg`–`052.jpg`, named by plant number; `Banner.png` is the overview shot used as the hero banner and link-preview image). Plant names in `data/plants.json` were identified from the photos and plant tags — double-check the few generic ones (`Succulent Cutting`, `Succulent Mix`, etc.) where the handwritten tag was missing or illegible, and prices (currently random within ₹10–₹30) before going live.
 
 ## Before going live
 
