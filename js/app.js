@@ -1,5 +1,3 @@
-// Fill in your real WhatsApp number (with country code, no + or spaces) before going live.
-const WHATSAPP_NUMBER = "91XXXXXXXXXX";
 const PLACEHOLDER_PHOTO = "images/placeholder.svg";
 
 const grid = document.getElementById("plant-grid");
@@ -7,14 +5,7 @@ const overlay = document.getElementById("modal-overlay");
 const modalPhoto = document.getElementById("modal-photo");
 const modalName = document.getElementById("modal-name");
 const modalNumber = document.getElementById("modal-number");
-const modalPrice = document.getElementById("modal-price");
-const modalReserve = document.getElementById("modal-reserve");
 const modalClose = document.getElementById("modal-close");
-
-function reserveLink(plant) {
-  const message = `Hi, I'd like to reserve Plant #${plant.number}`;
-  return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
-}
 
 function openModal(plant) {
   modalPhoto.src = plant.photo;
@@ -22,8 +13,6 @@ function openModal(plant) {
   modalPhoto.alt = plant.name;
   modalName.textContent = plant.name;
   modalNumber.textContent = `Plant #${plant.number}`;
-  modalPrice.textContent = `₹${plant.price}`;
-  modalReserve.href = reserveLink(plant);
   overlay.classList.add("open");
 }
 
@@ -55,10 +44,7 @@ function renderGrid(plants) {
 
     const info = document.createElement("div");
     info.className = "tile-info";
-    info.innerHTML = `
-      <div class="tile-number">#${plant.number}</div>
-      <div class="tile-price">₹${plant.price}</div>
-    `;
+    info.innerHTML = `<div class="tile-number">#${plant.number}</div>`;
     tile.appendChild(info);
 
     if (isAvailable) {
