@@ -50,11 +50,37 @@ body {
 .card-inner {
   max-width: 1180px;
   margin: 0 auto;
-  padding: 44px 60px 0;
+  padding: 52px 60px 0;
 }
 
 @media (max-width: 640px) {
   .card-inner { padding: 36px 24px 0; }
+}
+
+/* ── Site banner ── */
+.site-banner {
+  background: #EEF1E7;
+  text-align: center;
+  padding: 28px 60px 40px;
+  position: relative;
+}
+
+.banner-welcome {
+  font-family: 'Dancing Script', cursive;
+  font-weight: 600;
+  font-size: 52px;
+  color: #7e9056;
+  margin: 0;
+  line-height: 1.1;
+}
+
+.banner-title {
+  font-family: 'Dancing Script', cursive;
+  font-weight: 700;
+  font-size: 130px;
+  color: #4a5a2f;
+  margin: 0;
+  line-height: 0.95;
 }
 
 /* ── Hero ── */
@@ -72,48 +98,51 @@ body {
   margin: 0;
 }
 
-.hero-title {
-  margin: 6px 0 0;
-  text-transform: none;
-}
-
-.title-top {
-  font-family: 'Fraunces', serif;
-  font-weight: 600;
-  font-style: normal;
-  font-size: 120px;
-  line-height: 0.95;
-  letter-spacing: -0.01em;
-  color: #4a5a2f;
-  display: block;
-}
-
-.title-bottom {
-  font-family: 'Pinyon Script', cursive;
-  font-weight: 400;
-  font-size: 150px;
-  line-height: 0.85;
-  margin-top: 12px;
-  color: #7a8a52;
-  display: block;
-}
-
 .pill-wrap {
-  margin: 18px 0 6px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  transform: translateY(50%);
+  z-index: 10;
 }
 
+/* wooden plank */
 .pill {
   display: inline-block;
   font-family: 'Oswald', sans-serif;
   font-weight: 700;
   font-size: clamp(24px, 4vw, 32px);
   letter-spacing: .12em;
-  color: #5e7144;
-  background: #EEF1E7;
-  padding: 8px 24px 10px;
-  border-radius: 225px 12px 220px 14px / 14px 220px 12px 225px;
+  color: #2a1200;
+  background:
+    repeating-linear-gradient(
+      0deg,
+      transparent 0px, transparent 5px,
+      rgba(100,45,0,0.07) 5px, rgba(100,45,0,0.07) 6px,
+      transparent 6px, transparent 13px,
+      rgba(70,25,0,0.05) 13px, rgba(70,25,0,0.05) 14px,
+      transparent 14px, transparent 23px,
+      rgba(110,50,0,0.06) 23px, rgba(110,50,0,0.06) 24px
+    ),
+    linear-gradient(180deg, #e0b478 0%, #c48840 38%, #d9a55c 65%, #b07032 100%);
+  padding: 10px 28px 12px;
+  border-radius: 5px;
   transform: rotate(-1.4deg);
   white-space: nowrap;
+  box-shadow:
+    0 8px 24px rgba(0,0,0,0.32),
+    inset 0 1px 0 rgba(255,255,255,0.2),
+    inset 0 -3px 5px rgba(0,0,0,0.25),
+    inset -3px 0 4px rgba(0,0,0,0.08),
+    inset 3px 0 4px rgba(0,0,0,0.08);
+  border-top: 2px solid #c8a050;
+  border-bottom: 2px solid #7a4010;
+  border-left: 3px solid #9a6020;
+  border-right: 3px solid #9a6020;
+  position: relative;
+  z-index: 2;
 }
 
 .hero-sub {
