@@ -44,7 +44,7 @@ function renderGrid(plants) {
 
     const info = document.createElement("div");
     info.className = "tile-info";
-    info.innerHTML = `<div class="tile-number">#${plant.number}</div>`;
+    info.innerHTML = `<span class="tile-number">#${plant.number}</span><span class="tile-leaf">🌱</span>`;
     tile.appendChild(info);
 
     if (isAvailable) {

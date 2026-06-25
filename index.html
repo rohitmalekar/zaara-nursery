@@ -4,45 +4,111 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Zaara's Nursery — Potted Plants for Sale</title>
-<meta name="description" content="A handful of potted plants, lovingly repotted and cared for by 7-year-old Zaara. Reserve yours via WhatsApp.">
-
-<!-- Open Graph tags so shared links (WhatsApp, etc.) preview nicely -->
+<meta name="description" content="A handful of potted succulents, lovingly grown and cared for by 7-year-old Zaara. Come visit and pick your favourite!">
 <meta property="og:title" content="Zaara's Nursery — Potted Plants for Sale">
-<meta property="og:description" content="A handful of potted plants, lovingly repotted and cared for by 7-year-old Zaara. Reserve yours via WhatsApp.">
+<meta property="og:description" content="A handful of potted succulents, lovingly grown and cared for by 7-year-old Zaara. Come visit and pick your favourite!">
 <meta property="og:image" content="images/Banner.png">
 <meta property="og:type" content="website">
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Dancing+Script:wght@600;700&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-<header class="hero">
-  <img class="hero-banner" src="images/Banner.png" alt="Zaara's potted plant collection">
-  <h1>🌱 Zaara's Nursery</h1>
-  <p class="story">
-    Hi, my name is Zaara.
-    I am 7 years old.
-    When mamma was doing repotting work in the garden last summer, I decided to grow my own plants with left overs. And that became my summer project. I have potted these plants, watered them and cared for them. I have learnt a lot about them. These type of plants are called succulents and they need very less water to live. So it easy to take care of them. Now they have all grown and I have my own nursery!
-  </p>
-</header>
+<div class="bg-wrapper">
+  <div class="dot-overlay"></div>
+  <div class="page-container">
+    <div class="card">
+      <div class="card-inner">
 
-<section class="how-to-buy" id="how-to-buy">
-  <h2>Come visit my nursery!</h2>
-  <p>You can just drop by, choose the plants you like, and pay me right there. I can't wait to show you all my plants!</p>
-  <ul>
-    <li><strong>Where:</strong> 95 Rudraksha Grove, 5th Main Dead End (Military Road), Royal Placid Layout Phase 1</li>
-    <li><strong>When:</strong> Friday 19th June &amp; Saturday 20th June, 4 pm – 6 pm</li>
-  </ul>
-  <p> The following are the actual pictures of plants available for sale.</p>
-</section>
+        <!-- Hero -->
+        <div class="hero">
+          <p class="hero-intro">Hi, I'm Zaara —</p>
+          <h1 class="hero-title">Zaara's<br>Nursery</h1>
+          <div class="pill-wrap">
+            <span class="pill">A LITTLE SUCCULENT NURSERY</span>
+          </div>
+          <p class="hero-sub">all grown with love</p>
+        </div>
 
-<section class="inventory" id="inventory">
-  <h2>Available plants</h2>
-  <div class="grid" id="plant-grid">
-    <!-- plant tiles rendered here by js/app.js -->
+        <!-- Hero photo strip -->
+        <div class="photo-strip">
+          <img src="images/banner 1.jpg" alt="Zaara's nursery 1">
+          <img src="images/banner 2.jpg" alt="Zaara's nursery 2">
+          <img src="images/banner 3.jpeg" alt="Zaara's nursery 3">
+          <img src="images/banner 4.jpeg" alt="Zaara's nursery 4">
+          <img src="images/banner 5.jpg" alt="Zaara's nursery 5">
+        </div>
+
+        <!-- Story -->
+        <div class="story-section">
+          <span class="doodle doodle-tl">✦</span>
+          <span class="doodle doodle-br">🌿</span>
+          <p class="story-text">When mamma was doing repotting work in the garden last summer, I decided to grow my own plants with the left overs. That became my summer project. I potted them, watered them and cared for them.</p>
+          <p class="story-callout">These are succulents. They need very little water, so they're easy to care for!</p>
+          <p class="story-text">Now they have all grown, and I have my very own nursery. Come pick your favourite!</p>
+        </div>
+
+        <!-- Feature icons -->
+        <div class="features">
+          <div class="feature">
+            <div class="feature-icon">🌵</div>
+            <div class="feature-label">EASY-CARE<br>SUCCULENTS</div>
+          </div>
+          <div class="feature">
+            <div class="feature-icon">💧</div>
+            <div class="feature-label">VERY LITTLE<br>WATER</div>
+          </div>
+          <div class="feature">
+            <div class="feature-icon">🪴</div>
+            <div class="feature-label">GROWN AT<br>HOME</div>
+          </div>
+        </div>
+
+        <!-- Visit card -->
+        <div class="visit-card">
+          <div class="visit-title">Come say hi &amp; pick your plants!</div>
+          <p class="visit-desc">Just drop by, choose the plants you like, and pay me right there.</p>
+          <div class="visit-details">
+            <div class="visit-row">
+              <div class="visit-icon-box">📍</div>
+              <div>
+                <div class="visit-label">WHERE</div>
+                <div class="visit-value">95 Rudraksha Grove, 5th Main Dead End (Military Road), <br> Royal Placid Layout Phase 1</div>
+              </div>
+            </div>
+            <div class="visit-row">
+              <div class="visit-icon-box">🕒</div>
+              <div>
+                <div class="visit-label">WHEN</div>
+                <div class="visit-value">Friday 26th &amp; Saturday 27th June · 4 pm – 6 pm</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Plants -->
+        <div class="plants-section">
+          <div class="section-heading">
+            <span class="section-pill">Available Plants</span>
+          </div>
+          <p class="plants-caption">actual photos of the plants for sale</p>
+          <div class="grid" id="plant-grid"></div>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+          <div class="footer-title">Thank you for visiting!</div>
+          <div class="footer-sub">— ZAARA 🌱</div>
+        </footer>
+
+      </div>
+    </div>
   </div>
-</section>
+</div>
 
+<!-- Modal -->
 <div class="modal-overlay" id="modal-overlay">
   <div class="modal" id="modal">
     <button class="modal-close" id="modal-close" aria-label="Close">&times;</button>
@@ -51,10 +117,6 @@
     <p id="modal-number"></p>
   </div>
 </div>
-
-<footer>
-  <p>Planted with 💚 by Zaara.</p>
-</footer>
 
 <script src="js/app.js"></script>
 </body>
