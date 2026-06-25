@@ -3,168 +3,196 @@
     "number": "001",
     "name": "Aloe Vera",
     "status": "available",
+    "price": 25,
     "photo": "images/IMG_20260617_105101782_HDR.jpg"
   },
   {
     "number": "002",
     "name": "Anacampseros Filamentosa",
     "status": "available",
+    "price": 50,
     "photo": "images/IMG_20260617_105141826_HDR.jpg"
   },
   {
     "number": "003",
     "name": "Haworthia Limifolia",
     "status": "available",
+    "price": 75,
     "photo": "images/IMG_20260617_105208273_HDR.jpg"
   },
   {
     "number": "004",
-    "name": "Panda Plant",
+    "name": "Kalanchoe Millotii",
     "status": "available",
+    "price": 50,
     "photo": "images/IMG_20260617_105237090_HDR.jpg"
   },
   {
     "number": "005",
     "name": "Echeveria",
     "status": "available",
+    "price": 75,
     "photo": "images/IMG_20260617_105314424_HDR.jpg"
   },
   {
     "number": "006",
-    "name": "Burro's Tail",
+    "name": "Donkey's Tail",
     "status": "available",
+    "price": 50,
     "photo": "images/IMG_20260617_105344272_HDR.jpg"
   },
   {
     "number": "007",
-    "name": "Succulent Seedling",
+    "name": "Haworthia Retusa",
     "status": "available",
+    "price": 75,
     "photo": "images/IMG_20260617_105436701_HDR.jpg"
   },
   {
     "number": "008",
     "name": "Paddle Plant",
     "status": "available",
+    "price": 75,
     "photo": "images/IMG_20260617_105524128_HDR.jpg"
   },
   {
     "number": "009",
     "name": "Echeveria Seedling",
     "status": "available",
+    "price": 50,
     "photo": "images/IMG_20260617_105555753_HDR.jpg"
   },
   {
     "number": "010",
     "name": "Young Succulents",
     "status": "available",
+    "price": 50,
     "photo": "images/IMG_20260617_105628377_HDR.jpg"
   },
   {
     "number": "011",
     "name": "Blue Chalk Sticks",
     "status": "available",
+    "price": 60,
     "photo": "images/IMG_20260617_105755298_HDR.jpg"
   },
   {
     "number": "012",
-    "name": "Moonstones",
+    "name": "Crassula Mesembryanthemoides",
     "status": "available",
+    "price": 75,
     "photo": "images/IMG_20260617_105842808_HDR.jpg"
   },
   {
     "number": "013",
-    "name": "Succulent Cutting",
+    "name": "Moon Stone",
     "status": "available",
+    "price": 50,
     "photo": "images/IMG_20260617_105916512_HDR.jpg"
   },
   {
     "number": "014",
     "name": "Gasteria",
     "status": "available",
+    "price": 50,
     "photo": "images/IMG_20260617_105953059_HDR.jpg"
   },
   {
     "number": "015",
     "name": "String of Pearls",
     "status": "available",
+    "price": 50,
     "photo": "images/IMG_20260617_110031115_HDR.jpg"
   },
   {
     "number": "016",
-    "name": "Haworthia",
+    "name": "Haworthia Coarctata",
     "status": "available",
+    "price": 75,
     "photo": "images/IMG_20260617_110104109_HDR.jpg"
   },
   {
     "number": "017",
-    "name": "Haworthia",
+    "name": "Haworthia Reinwardtii",
     "status": "available",
+    "price": 50,
     "photo": "images/IMG_20260617_110157948_HDR.jpg"
   },
   {
     "number": "018",
     "name": "Succulent Mix",
     "status": "available",
+    "price": 50,
     "photo": "images/IMG_20260617_110239348_HDR.jpg"
   },
   {
     "number": "019",
     "name": "Echeveria",
     "status": "available",
+    "price": 75,
     "photo": "images/IMG_20260617_110320286_HDR.jpg"
   },
   {
     "number": "020",
     "name": "Mother of Thousands",
     "status": "available",
+    "price": 50,
     "photo": "images/IMG_20260617_110410126_HDR.jpg"
   },
   {
     "number": "021",
     "name": "Ice Plant",
     "status": "available",
+    "price": 75,
     "photo": "images/IMG_20260617_110457168_HDR.jpg"
   },
   {
     "number": "022",
-    "name": "Haworthia Black Gem",
+    "name": "Aloworthia Black Gem",
     "status": "available",
+    "price": 50,
     "photo": "images/IMG_20260617_110553733_HDR.jpg"
   },
   {
     "number": "023",
     "name": "Jade Plant",
     "status": "available",
+    "price": 50,
     "photo": "images/IMG_20260617_110630517_HDR.jpg"
   },
   {
     "number": "024",
-    "name": "Mystery Seedling",
+    "name": "Haworthia Batesiana",
     "status": "available",
+    "price": 75,
     "photo": "images/IMG_20260617_110700452_HDR.jpg"
   },
   {
     "number": "025",
     "name": "String of Buttons",
     "status": "available",
+    "price": 50,
     "photo": "images/IMG_20260617_110927455_HDR.jpg"
   },
   {
     "number": "026",
     "name": "Golden Sedum",
     "status": "available",
+    "price": 50,
     "photo": "images/IMG_20260617_111015231_HDR.jpg"
   },
   {
     "number": "027",
     "name": "Echeveria Blue Elf",
     "status": "available",
+    "price": 75,
     "photo": "images/IMG_20260617_111530191_HDR.jpg"
   },
   {
     "number": "028",
-    "name": "Sedum Cuttings",
+    "name": "Jelly Bean Sedum",
     "status": "available",
+    "price": 75,
     "photo": "images/IMG_20260617_111823436_HDR.jpg"
   }
 ]

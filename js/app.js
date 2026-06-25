@@ -6,6 +6,7 @@ const modalPhoto = document.getElementById("modal-photo");
 const modalName = document.getElementById("modal-name");
 const modalNumber = document.getElementById("modal-number");
 const modalClose = document.getElementById("modal-close");
+const modalPrice = document.getElementById("modal-price");
 
 function openModal(plant) {
   modalPhoto.src = plant.photo;
@@ -13,6 +14,8 @@ function openModal(plant) {
   modalPhoto.alt = plant.name;
   modalName.textContent = plant.name;
   modalNumber.textContent = `Plant #${plant.number}`;
+  modalPrice.textContent = plant.price ? `₹${plant.price}` : '';
+  modalPrice.style.display = plant.price ? '' : 'none';
   overlay.classList.add("open");
 }
 
@@ -44,7 +47,14 @@ function renderGrid(plants) {
 
     const info = document.createElement("div");
     info.className = "tile-info";
-    info.innerHTML = `<span class="tile-number">#${plant.number}</span><span class="tile-leaf">🌱</span>`;
+    info.innerHTML = `
+      <div class="tile-row">
+        <span class="tile-number">#${plant.number}</span>
+        <span class="tile-leaf">🌱</span>
+      </div>
+      <span class="tile-name">${plant.name}</span>
+      ${plant.price ? `<span class="tile-price">₹${plant.price}</span>` : ''}
+    `;
     tile.appendChild(info);
 
     if (isAvailable) {
