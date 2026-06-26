@@ -310,6 +310,19 @@ body {
   color: #55554f;
 }
 
+.directions-link {
+  font-family: 'Oswald', sans-serif;
+  font-size: 26px;
+  font-weight: 600;
+  color: #5e7144;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.directions-link:hover {
+  text-decoration: underline;
+}
+
 /* ── Plants section ── */
 .plants-section { margin-top: 52px; }
 
