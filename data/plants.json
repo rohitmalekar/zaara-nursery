@@ -52,12 +52,12 @@
     "number": "008",
     "name": "Paddle Plant",
     "status": "available",
-    "price": 75,
+    "price": 100,
     "photo": "images/IMG_20260617_105524128_HDR.jpg"
   },
   {
     "number": "009",
-    "name": "Echeveria Seedling",
+    "name": "",
     "status": "available",
     "price": 50,
     "photo": "images/IMG_20260617_105555753_HDR.jpg"
