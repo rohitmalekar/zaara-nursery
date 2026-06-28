@@ -9,14 +9,14 @@
   {
     "number": "002",
     "name": "Anacampseros Filamentosa",
-    "status": "available",
+    "status": "sold",
     "price": 50,
     "photo": "images/IMG_20260617_105141826_HDR.jpg"
   },
   {
     "number": "003",
     "name": "Haworthia Limifolia",
-    "status": "available",
+    "status": "sold",
     "price": 75,
     "photo": "images/IMG_20260617_105208273_HDR.jpg"
   },
@@ -59,7 +59,7 @@
     "number": "009",
     "name": "",
     "status": "sold",
-    "price": 50,
+    "price": 75,
     "photo": "images/IMG_20260617_105555753_HDR.jpg"
   },
   {
