@@ -30,14 +30,14 @@
   {
     "number": "005",
     "name": "Echeveria",
-    "status": "available",
+    "status": "sold",
     "price": 75,
     "photo": "images/IMG_20260617_105314424_HDR.jpg"
   },
   {
     "number": "006",
     "name": "Donkey's Tail",
-    "status": "available",
+    "status": "sold",
     "price": 50,
     "photo": "images/IMG_20260617_105344272_HDR.jpg"
   },
@@ -51,7 +51,7 @@
   {
     "number": "008",
     "name": "Paddle Plant",
-    "status": "available",
+    "status": "sold",
     "price": 100,
     "photo": "images/IMG_20260617_105524128_HDR.jpg"
   },
@@ -107,7 +107,7 @@
   {
     "number": "016",
     "name": "Haworthia Coarctata",
-    "status": "available",
+    "status": "sold",
     "price": 75,
     "photo": "images/IMG_20260617_110104109_HDR.jpg"
   },
@@ -128,7 +128,7 @@
   {
     "number": "019",
     "name": "Echeveria",
-    "status": "available",
+    "status": "sold",
     "price": 75,
     "photo": "images/IMG_20260617_110320286_HDR.jpg"
   },
@@ -142,14 +142,14 @@
   {
     "number": "021",
     "name": "Ice Plant",
-    "status": "available",
+    "status": "sold",
     "price": 75,
     "photo": "images/IMG_20260617_110457168_HDR.jpg"
   },
   {
     "number": "022",
     "name": "Aloworthia Black Gem",
-    "status": "available",
+    "status": "sold",
     "price": 50,
     "photo": "images/IMG_20260617_110553733_HDR.jpg"
   },
@@ -163,7 +163,7 @@
   {
     "number": "024",
     "name": "Haworthia Batesiana",
-    "status": "available",
+    "status": "sold",
     "price": 75,
     "photo": "images/IMG_20260617_110700452_HDR.jpg"
   },

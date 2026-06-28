@@ -29,21 +29,28 @@ function renderGrid(plants) {
     const isAvailable = plant.status === "available";
 
     const tile = document.createElement(isAvailable ? "button" : "div");
-    tile.className = "tile";
+    tile.className = isAvailable ? "tile" : "tile sold";
     if (!isAvailable) tile.setAttribute("disabled", "true");
+
+    const imgWrap = document.createElement("div");
+    imgWrap.className = "tile-img-wrap";
 
     const img = document.createElement("img");
     img.src = plant.photo;
     img.alt = plant.name;
     img.onerror = () => { img.src = PLACEHOLDER_PHOTO; };
-    tile.appendChild(img);
+    imgWrap.appendChild(img);
 
     if (!isAvailable) {
-      const badge = document.createElement("span");
-      badge.className = "status-badge";
-      badge.textContent = plant.status;
-      tile.appendChild(badge);
+      const stamp = document.createElement("div");
+      stamp.className = "sold-stamp";
+      const stampText = document.createElement("span");
+      stampText.textContent = "SOLD";
+      stamp.appendChild(stampText);
+      imgWrap.appendChild(stamp);
     }
+
+    tile.appendChild(imgWrap);
 
     const info = document.createElement("div");
     info.className = "tile-info";
