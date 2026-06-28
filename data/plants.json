@@ -58,7 +58,7 @@
   {
     "number": "009",
     "name": "",
-    "status": "available",
+    "status": "sold",
     "price": 50,
     "photo": "images/IMG_20260617_105555753_HDR.jpg"
   },
@@ -86,21 +86,21 @@
   {
     "number": "013",
     "name": "Moon Stone",
-    "status": "available",
+    "status": "sold",
     "price": 50,
     "photo": "images/IMG_20260617_105916512_HDR.jpg"
   },
   {
     "number": "014",
     "name": "Gasteria",
-    "status": "available",
+    "status": "sold",
     "price": 50,
     "photo": "images/IMG_20260617_105953059_HDR.jpg"
   },
   {
     "number": "015",
     "name": "String of Pearls",
-    "status": "available",
+    "status": "sold",
     "price": 50,
     "photo": "images/IMG_20260617_110031115_HDR.jpg"
   },
@@ -114,7 +114,7 @@
   {
     "number": "017",
     "name": "Haworthia Reinwardtii",
-    "status": "available",
+    "status": "sold",
     "price": 50,
     "photo": "images/IMG_20260617_110157948_HDR.jpg"
   },
@@ -135,7 +135,7 @@
   {
     "number": "020",
     "name": "Mother of Thousands",
-    "status": "available",
+    "status": "sold",
     "price": 50,
     "photo": "images/IMG_20260617_110410126_HDR.jpg"
   },
@@ -170,7 +170,7 @@
   {
     "number": "025",
     "name": "String of Buttons",
-    "status": "available",
+    "status": "sold",
     "price": 50,
     "photo": "images/IMG_20260617_110927455_HDR.jpg"
   },
